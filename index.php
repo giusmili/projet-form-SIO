@@ -13,7 +13,7 @@
 <body>
     <header>
         <h1>
-        Compléter le code <kbd>PHP</kbd> suivant
+        💻 Compléter le code <kbd>PHP</kbd> suivant
         </h1>
     </header>
     
@@ -29,7 +29,7 @@
         <fieldset>
         
             <legend>
-                Remplir les champs
+                Remplir les champs 📝
             </legend>
             
             <form action="<?= $_SERVER["PHP_SELF"]?>" method="post">
@@ -59,8 +59,9 @@
   
     <footer>
         <p>
-            &copy; - PHP - 2025
-        </p>
+            <a href="https://opensource.org/licenses/MIT" target="_blank">
+                <img src="https://img.shields.io/badge/License-MIT-yellow.svg" alt="MIT License">
+            </a> </p>
     </footer>
     <!-- <pre>
         <?php
